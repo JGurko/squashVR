@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c18ycw70qe84p"]
+
+[ext_resource type="PackedScene" uid="uid://cpssfopslm8bt" path="res://art/player.glb" id="1_e6iwb"]
+
+[node name="Player" type="CharacterBody3D"]
+metadata/_edit_group_ = true
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Character" parent="Pivot" instance=ExtResource("1_e6iwb")]
